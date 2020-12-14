@@ -1,0 +1,32 @@
+/*Below is a class selector*/
+.highlight:hover {
+      color:darkgoldenrod
+}
+.💻 {
+      background-color: #008ae6;
+}
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
+hr.new {
+      border-top: 3px dashed #008ae6;
+}
+p {
+      text-align: center;
+}
+ul {color: teal;}
+table {text-align: center;}
+            body {
+              font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+              }     
+h1 {font-size: 45px;}
+ table, th, td {border: 1px; border-collapse: collapse;}
+      th, td {padding: 5px;}
+      table, th, td {border: 1px solid black; border-collapse: collapse;}
+      th, td {padding: 5px;}

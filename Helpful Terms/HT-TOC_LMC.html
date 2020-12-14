@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--<link rel="stylesheet" href="1.css">-->
+  </head>
+<body>
+    <style type="text/css">
+    hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
+hr.new {
+        border-top: 3px solid blue;
+    }
+    body {
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+      }
+#toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+</style>
+<div id="toc_container">
+<p class="toc_title">Helpful Terms</p>
+<ul class="toc_list">
+  <li><a target= _blank href="HT1_LMC.html">Agile - Full-stack Web Development</a>
+
+<li><a target= _blank href="HT2_LMC.html">Git - HTML</a></li>
+<li><a target= _blank href="HT3_LMC.html">HTTP - Web Server</a></li>
+</ul>
+</div>
+<hr>
+<p>If you found this to be a helpful resource, please subscribe below:</p>
+<form action="/action_page.php" method="POST">
+  <label for="fname">First Name:</label>
+  <input type="text" id="fname" name="fname" required>
+  <br>
+  <br>
+   <label for="lname">Last Name:</label>
+  <input type="text" id="lname" name="lname" required>
+  <br>
+  <br>
+  <label for="email">Email:</label>
+  <input type="text" id="email" name="email" required>
+  <br>
+  <br>
+  <label for="location">Location:</label>
+  <select name="location" id="location">
+    <option value="US">United States</option>
+    <option value="CA">Canada</option>
+    <option value="MX">Mexico</option>
+  </select>
+  <br>
+  <br>
+  <label for="date">Today's Date:</label>
+  <input type="date" id="date" name="date">
+  <br>
+  <br>
+  <hr class="new" width="50%">
+  <input type="image" src="http://www.smartwebby.com/imgs/tutorials/fireworks/website-design/submit-button.jpg" align="right">
+</form>
+</form> 
+</body>
+</html>

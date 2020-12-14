@@ -1,0 +1,32 @@
+    /*Hi, I am an id selector*/
+    .highlight:hover {
+      color:tomato
+}
+    #header {
+      background-color: white;
+      color: black;
+      text-align: center;
+    }
+    .🌐 {
+      background-color: teal;
+    }
+    hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
+    p {
+        text-align: center;
+    }
+    /*What follows is a tag selector*/
+    h1 {color:midnightblue;}
+    ul {text-align: justify;}
+        body {
+          font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+          }
+    h1 {font-size: 45px;}
+          img {border-radius: 50%; }

@@ -1,0 +1,32 @@
+    /*Hi, I am an id selector*/
+    .highlight:hover {
+        color:yellowgreen
+    }
+    #header {
+        background-color: white;
+      color: black;
+      text-align: center;
+    }
+    .🔗 {
+        background-color: lawngreen;
+    }
+    hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  /* This is an example of internal CSS above */
+} 
+    hr.new {
+        border-top: 3px dotted lawngreen;
+    }
+    p {
+        text-align: center;
+    }
+        body {
+          font-family:Verdana, Geneva, Tahoma, sans-serif
+          }
+h1 {font-size: 45px;}
